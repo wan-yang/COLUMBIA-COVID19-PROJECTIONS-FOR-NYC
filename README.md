@@ -63,7 +63,7 @@ Rebound Scenarios: In light of the recent uptick in mobility and potential rebou
 Note there is no particular specification of how reductions in contact rates or spread are achieved.  In a model of this form different reduction options (e.g. isolation vs. quarantine) are not represented explicitly; rather, they are effected by adjusting the estimated (posterior) contact rate and infectious period within the model, relative to estimates for the most recent week (the As Is scenario).
 
 #### Updates on model projections (6/6/2020):   
-The City is set to reopen on Monday 6/8/2020. For this week's projection, we thus updated model settings to anticipate potential changes. As no plan has been set for Phase 2 yet, for all projection scenarios, we assumed that the next 8 weeks will remain at Phase 1. 
+The City entered phase 1 reopening on Monday 6/8/2020. For projections generated during the Week stating 6/7 and Week starting 6/14, we updated model settings to anticipate potential changes. As no plan has been set for Phase 2 yet, for all projection scenarios, we assumed that the next 8 weeks will remain at Phase 1. 
 
 - "As Is" scenario:  We incorporated historical mobility data from SafeGraph.com to anticipate increases in mobility in the coming weeks following reopening.  We assumed industries under the Phase 1 category would operate at 50% capacity during the first week, 75% during the second week, and 100% during the third and later weeks.  Based on these projected mobility changes, we further projected changes in transmission rate and infectious period based on model estimates from March 1 – June 6, 2020.  In addition, we in part accounted for potential reduction in transmission due to preventive measures (e.g. mask wearing).  [Note: here we did not account for the recent demonstrations which could increase transmission; see the Rebound scenarios below.]
 
@@ -75,6 +75,14 @@ With enhanced public health interventions (e.g. the contact tracing program and 
 In contrast, increase in transmission is also possible, e.g. due to mass gatherings.  Thus, we included 2 Rebound scenarios as follows:
 - "Rebound 1 moderate increase in transmission" scenario: 25% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
 - "Rebound 2 large increase in transmission" scenario: 50% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
+
+#### Updates on model projections (6/24/2020):   
+The City entered phase 2 reopening on Monday 6/22/2020. For this week's projection, we thus updated model settings to anticipate potential changes. As no plan has been set for Phase 3 yet, for all projection scenarios, we assumed that the next 8 weeks will remain at Phase 2. 
+In addition, based on observations during phase 1 reopening, we make the following adjustment to the projection scenarios regarding the transmission rate:
+- "Ctrl 1 moderate reduction in transmission" scenario: 10% reduction in the transmission rate with respect to the projected estimates per the "As Is" scenario. 
+- "Ctrl 2 large reduction in transmission" scenario: 25% reduction in the transmission rate with respect to the projected estimates per the "As Is" scenario. 
+- "Rebound 1 moderate increase in transmission" scenario: 10% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
+- "Rebound 2 large increase in transmission" scenario: 25% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
 
 
 ### Model Output 
