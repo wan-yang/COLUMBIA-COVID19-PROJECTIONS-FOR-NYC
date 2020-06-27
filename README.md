@@ -84,6 +84,10 @@ In addition, based on observations during phase 1 reopening, we make the followi
 - "Rebound 1 moderate increase in transmission" scenario: 10% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
 - "Rebound 2 large increase in transmission" scenario: 25% increase in the transmission rate with respect to the projected estimates per the "As Is" scenario.
 
+#### Updates on model projections (6/27/2020):   
+The City entered phase 2 reopening on Monday 6/22/2020 and is poised to enter phase 3 on July 6. For this week's projection, we thus updated model settings to anticipate potential changes including the phase 3 reopening. 
+Per NYS guideline, all projections assume 50% maximum occupancy for industries allowed to open. In addition, for the 'As Is' scenario, we assume all New Yorker continue to wear masks, which effectively reduces transmission. PLEASE WEAR FACE MASKS WHEN YOU ARE OUTSIDE.
+
 
 ### Model Output 
 
