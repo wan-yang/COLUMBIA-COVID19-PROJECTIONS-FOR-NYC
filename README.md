@@ -29,8 +29,8 @@ For further detail, see Yang et al. 2020 medRxiv
 Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
 
 #### 1.4. Network SEIRS model by age group: 
-This system, built on Model 1.3, further accounts for waning immunity over time. Current, large uncertainties remain surrounding the whether prior infection of SARS-CoV-2 can confer immunity (i.e. protection against future infection) and if so, the duration of such immunity. For simplicity here, we assume the duration of immunity is around 3 years. 
-This assumption is in part based on our study of human endemic coronaviruses which suggests an immunity period of ~3 years for all the four human coronaviruses combined and ~5-6 years for OC43 (a beta-coronavirus in the same genus as SARS-CoV-2 (unpublished data). Prior studies have also shown immunity up to ~6 years post infection for SARS-CoV-1 (Tang et al. 2011 J Immunol 186:7264-8).
+This system, built on Model 1.3, further accounts for waning immunity over time. Currently, large uncertainties remain surrounding whether prior infection of SARS-CoV-2 can confer immunity (i.e. protection against future infection) and if so, the duration of such immunity. 
+For simplicity, here we assume the duration of immunity is around 3 years. This assumption is in part based on our study of human endemic coronaviruses which suggests an immunity period of ~3 years for all the four human coronaviruses combined and ~5-6 years for OC43 (a beta-coronavirus in the same genus as SARS-CoV-2; unpublished data). Prior studies have also shown immunity up to ~6 years post infection for SARS-CoV-1 (Tang et al. 2011 J Immunol 186:7264-8).
 In general, our simulations comparing the length of immunity (at ~1, ~3, or ~6 years) showed the magnitude of further epidemic wave would be larger if the duration of immunity were short-lived (1 year vs. 3-6 years; see Yang et al. 2020 report)
 
 Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
