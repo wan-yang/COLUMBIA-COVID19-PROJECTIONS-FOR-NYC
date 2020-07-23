@@ -23,7 +23,15 @@ Susceptible-Exposed-Infectious-Removed (SEIR) model accounting for reporting del
 For this model, the same SEIR construct is used; however, the model parameters account for differences by age (e.g. reporting rate and disease severity) and the model is trained using age-specific incidence data for eight age groups: <1, 1-4, 5-14, 15-24, 25-44, 45-64, 65-74, and 75+ years, separately. This system is used for projections generated from 4/3/2020 onwards.  
 
 #### 1.3. Network SEIR model by age group: 
-This system accounts for spatial heterogeneity using a network model capturing connections among 42 United Hospital Fund (UHF) neighborhoods in NYC. This system also incorporates mobility data provided by Safegraph.com to gauge changes in transmission within each UHF neighborhood and between pairs of neighborhoods. The model is trained using age-specific, UHF-specific incidence data.  
+This system accounts for spatial heterogeneity using a network model capturing connections among 42 United Hospital Fund (UHF) neighborhoods in NYC. This system also incorporates mobility data provided by Safegraph.com to gauge changes in transmission within each UHF neighborhood and between pairs of neighborhoods. The model is trained using age-specific, UHF-specific incidence data. 
+For further detail, see Yang et al. 2020 medRxiv 
+
+Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
+
+#### 1.4. Network SEIRS model by age group: 
+This system, built on Model 1.3, further accounts for waning immunity over time. Current, large uncertainties remain surrounding the whether prior infection of SARS-CoV-2 can confer immunity (i.e. protection against future infection) and if so, the duration of such immunity. For simplicity here, we assume the duration of immunity is around 3 years. 
+This assumption is in part based on our study of human endemic coronaviruses which suggests an immunity period of ~3 years for all the four human coronaviruses combined and ~5-6 years for OC43 (a beta-coronavirus in the same genus as SARS-CoV-2 (unpublished data). Prior studies have also shown immunity up to ~6 years post infection for SARS-CoV-1 (Tang et al. 2011 J Immunol 186:7264-8).
+In general, our simulations comparing the length of immunity (at ~1, ~3, or ~6 years) showed the magnitude of further epidemic wave would be larger if the duration of immunity were short-lived (1 year vs. 3-6 years; see Yang et al. 2020 report)
 
 Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
 
@@ -88,6 +96,10 @@ In addition, based on observations during phase 1 reopening, we make the followi
 The City entered phase 2 reopening on Monday 6/22/2020 and is poised to enter phase 3 on July 6. For this week's projection, we thus updated model settings to anticipate potential changes including the phase 3 reopening. 
 Per NYS guideline, all projections assume 50% maximum occupancy for industries allowed to open. In addition, for the 'As Is' scenario, we assume all New Yorker continue to wear masks, which effectively reduces transmission. PLEASE WEAR FACE MASKS WHEN YOU ARE OUTSIDE.
 
+#### NOTE (7/22/2020):
+The City entered Phase 4 on Monday 7/20/2020. With the additional safety measures (more stringent restrictions) in place for Phase 4 to curb COVID-19 spread, our anticipated mobility without accounting for such restristions are likely higher than the actuals. 
+As such, our projections (under the 'As Is' scenario) likely overestimate the epidemic outcomes (cases, hospitalizations etc.)
+We will incorporate near real-time mobility data as they become available to improve accuracy of the projections. 
 
 ### Model Output 
 
@@ -134,3 +146,10 @@ Yang  X, Yu  Y, Xu  J, Shu  H, Xia  J, Liu  H, et al. Clinica
 Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, Xiang J, Wang Y, Song B, Gu X, Guan L. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The Lancet. 2020 Mar 11.
 
 Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China - JAMA, February 7, 2020
+
+Tang F, Quan Y, Xin ZT, et al. Lack of peripheral memory B cell responses in recovered patients with severe acute respiratory syndrome: a six-year follow-up study. J Immunol 2011; 186(12): 7264-8.
+
+Yang W, Kandula S, Huynh M, et al. Estimating the infection fatality risk of COVID-19 in New York City, March 1-May 16, 2020. medRxiv 2020: 2020.06.27.20141689.
+
+Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-opening Policies. 5/26/2020. Available at https://github.com/wan-yang/re-opening_analysis/blob/master/report1_reopenTiming.pdf
+ 
