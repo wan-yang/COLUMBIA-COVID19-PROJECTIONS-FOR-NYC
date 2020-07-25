@@ -96,10 +96,14 @@ In addition, based on observations during phase 1 reopening, we make the followi
 The City entered phase 2 reopening on Monday 6/22/2020 and is poised to enter phase 3 on July 6. For this week's projection, we thus updated model settings to anticipate potential changes including the phase 3 reopening. 
 Per NYS guideline, all projections assume 50% maximum occupancy for industries allowed to open. In addition, for the 'As Is' scenario, we assume all New Yorker continue to wear masks, which effectively reduces transmission. PLEASE WEAR FACE MASKS WHEN YOU ARE OUTSIDE.
 
-#### NOTE (7/22/2020):
+#### NOTE 
+##### 7/22/2020
 The City entered Phase 4 on Monday 7/20/2020. With the additional safety measures (more stringent restrictions) in place for Phase 4 to curb COVID-19 spread, our anticipated mobility without accounting for such restristions are likely higher than the actuals. 
 As such, our projections (under the 'As Is' scenario) likely overestimate the epidemic outcomes (cases, hospitalizations etc.)
 We will incorporate near real-time mobility data as they become available to improve accuracy of the projections. 
+
+##### 7/24/2020
+For this week's projections, we tentatively project the changes in mobility based on trends in the past few weeks. Hopefully, this would improve accuracy of the projections. 
 
 ### Model Output 
 
