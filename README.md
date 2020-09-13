@@ -70,6 +70,7 @@ Rebound Scenarios: In light of the recent uptick in mobility and potential rebou
 
 Note there is no particular specification of how reductions in contact rates or spread are achieved.  In a model of this form different reduction options (e.g. isolation vs. quarantine) are not represented explicitly; rather, they are effected by adjusting the estimated (posterior) contact rate and infectious period within the model, relative to estimates for the most recent week (the As Is scenario).
 
+### NOTES ON MODEL UPDATES
 #### Updates on model projections (6/6/2020):   
 The City entered phase 1 reopening on Monday 6/8/2020. For projections generated during the Week stating 6/7 and Week starting 6/14, we updated model settings to anticipate potential changes. As no plan has been set for Phase 2 yet, for all projection scenarios, we assumed that the next 8 weeks will remain at Phase 1. 
 
@@ -96,14 +97,16 @@ In addition, based on observations during phase 1 reopening, we make the followi
 The City entered phase 2 reopening on Monday 6/22/2020 and is poised to enter phase 3 on July 6. For this week's projection, we thus updated model settings to anticipate potential changes including the phase 3 reopening. 
 Per NYS guideline, all projections assume 50% maximum occupancy for industries allowed to open. In addition, for the 'As Is' scenario, we assume all New Yorker continue to wear masks, which effectively reduces transmission. PLEASE WEAR FACE MASKS WHEN YOU ARE OUTSIDE.
 
-#### NOTES 
-##### 7/22/2020
+#### 7/22/2020
 The City entered Phase 4 on Monday 7/20/2020. With the additional safety measures (more stringent restrictions) in place for Phase 4 to curb COVID-19 spread, our anticipated mobility without accounting for such restristions are likely higher than the actuals. 
 As such, our projections (under the 'As Is' scenario) likely overestimate the epidemic outcomes (cases, hospitalizations etc.)
 We will incorporate near real-time mobility data as they become available to improve accuracy of the projections. 
 
-##### 7/24/2020
+#### 7/24/2020
 For this week's projections, we tentatively project the changes in mobility based on trends in the past few weeks. Hopefully, this would improve accuracy of the projections. 
+
+#### 9/11/2020
+For this week's projections, we include projected changes following re-opening of gyms, schools, and indoor dining per the city's current plans. 
 
 ### Model Output 
 
@@ -157,3 +160,4 @@ Yang W, Kandula S, Huynh M, et al. Estimating the infection fatality risk of COV
 
 Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-opening Policies. 5/26/2020. Available at https://github.com/wan-yang/re-opening_analysis/blob/master/report1_reopenTiming.pdf
  
+Yang W, Shaff J, Shaman J. COVID-19 transmission dynamics and effectiveness of public health interventions in New York City during the 2020 spring pandemic wave. medRxiv. 2020:2020.09.08.20190710. https://www.medrxiv.org/content/10.1101/2020.09.08.20190710v1
