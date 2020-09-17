@@ -24,7 +24,7 @@ For this model, the same SEIR construct is used; however, the model parameters a
 
 #### 1.3. Network SEIR model by age group: 
 This system accounts for spatial heterogeneity using a network model capturing connections among 42 United Hospital Fund (UHF) neighborhoods in NYC. This system also incorporates mobility data provided by Safegraph.com to gauge changes in transmission within each UHF neighborhood and between pairs of neighborhoods. The model is trained using age-specific, UHF-specific incidence data. 
-For further detail, see Yang et al. 2020 medRxiv 
+For further detail, see Yang et al. 2020a medRxiv 
 
 Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
 
@@ -43,7 +43,7 @@ Confirmed cases of COVID-19 in New York City (from Week 10, i.e. March 1-7 of 20
 
 Bayesian inference approach in which the DOHMH data are used to partially constrain the model parameters and state variables prior to making a projection. The form is similar to that used for influenza forecasting; however, here the data are very limited (3 weeks) so the model is less well constrained.  Initial prior ranges are set as: transmission rate (β): [0.5, 1]; latency period (Tei): [2, 5] days; infectious period (Tir): [2, 5] days; mean reporting delay (i.e., from viral shedding to being diagnosed; Td.mean): [3, 9] days; standard deviation of reporting delay (Td.sd): [1, 3] days; and reporting rate (i.e., the proportion of infections that are diagnosed; ⍺): [5, 80]%. These parameters are estimated based on the weekly confirmed case data.  
 
-In addition, for the delay from infection to hospitalization, ICU, and death, we used reported time from symptom onset of SARS-CoV-2 to the corresponding event (Yang et al. 2020; Zhou et al. 2020; Wang et al. 2020). To compute the numbers of different health outcomes from the model estimated total infections, we used the following probability ranges: 3-9% for hospitalization (severe and critical cases); 1-3.6% for ICU and 0.5-1.5% for mortality. These probabilities are based on reported numbers among diagnosed cases in NYC (information from NYC DOHMH), China (China CDC, 2020) and other countries and assuming a 20-30% ascertainment rate (Li et al., 2020). To compute the healthcare demands for each week, we used reported retention times in hospitals and ICU (Zhou et al. 2020) for corresponding estimates.  See further details below. 
+In addition, for the delay from infection to hospitalization, ICU, and death, we used reported time from symptom onset of SARS-CoV-2 to the corresponding event (Yang et al. 2020; Zhou et al. 2020; Wang et al. 2020). To compute the numbers of different health outcomes from the model estimated total infections, we used the following probability ranges: 3-9% for hospitalization (severe and critical cases); 1-3.6% for ICU. These probabilities are based on reported numbers among diagnosed cases in NYC (information from NYC DOHMH), China (China CDC, 2020) and other countries and assuming a 20-30% ascertainment rate (Li et al., 2020). To compute the healthcare demands for each week, we used reported retention times in hospitals and ICU (Zhou et al. 2020) for corresponding estimates. COVID-19 infection fatality risk is estimated based on both case and mortality data using our model-inference system. See full method in Yang et al. 2020a
 
 ### 4. Model Scenarios
 
