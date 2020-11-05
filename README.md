@@ -158,6 +158,8 @@ Tang F, Quan Y, Xin ZT, et al. Lack of peripheral memory B cell responses in rec
 
 Yang W, Kandula S, Huynh M, et al. Estimating the infection fatality risk of COVID-19 in New York City, March 1-May 16, 2020. medRxiv 2020: 2020.06.27.20141689. https://www.medrxiv.org/content/10.1101/2020.06.27.20141689v1
 
+Yang W, Kandula S, Huynh M, Greene SK, Van Wye G, Li W, Chan HT, McGibbon E, Yeung A, Olson D, Fine A, Shaman J. Estimating the infection-fatality risk of SARS-CoV-2 in New York City during the spring 2020 pandemic wave: a model-based analysis. The Lancet Infectious Diseases. doi: 10.1016/S1473-3099(20)30769-6.
+
 Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-opening Policies. 5/26/2020. Available at https://github.com/wan-yang/re-opening_analysis/blob/master/report1_reopenTiming.pdf
  
 Yang W, Shaff J, Shaman J. COVID-19 transmission dynamics and effectiveness of public health interventions in New York City during the 2020 spring pandemic wave. medRxiv. 2020:2020.09.08.20190710. https://www.medrxiv.org/content/10.1101/2020.09.08.20190710v1
