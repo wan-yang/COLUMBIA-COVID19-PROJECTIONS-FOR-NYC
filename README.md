@@ -45,6 +45,11 @@ Bayesian inference approach in which the DOHMH data are used to partially constr
 
 In addition, for the delay from infection to hospitalization, ICU, and death, we used reported time from symptom onset of SARS-CoV-2 to the corresponding event (Yang et al. 2020; Zhou et al. 2020; Wang et al. 2020). To compute the numbers of different health outcomes from the model estimated total infections, we used the following probability ranges: 3-9% for hospitalization (severe and critical cases); 1-3.6% for ICU. These probabilities are based on reported numbers among diagnosed cases in NYC (information from NYC DOHMH), China (China CDC, 2020) and other countries and assuming a 20-30% ascertainment rate (Li et al., 2020). To compute the healthcare demands for each week, we used reported retention times in hospitals and ICU (Zhou et al. 2020) for corresponding estimates. COVID-19 infection fatality risk is estimated based on both case and mortality data using our model-inference system. See full method in Yang et al. 2020a
 
+UPDATE (11/27/20): In light of recent treatment improvement and changing patient demographics, we update the healthcare related parameters to as follows: 
+Length of stay in hospitals overall: mean = 12.1 days, sd = 5.2 days; 
+Length of stay in ICU: mean = 13.3 days; sd = 5.9 days; 
+Duration on ventilator: mean = 8.6 days; sd = 3 days; 
+
 ### 4. Model Scenarios
 
 Seasonality: There are 4 endemic coronaviruses infecting humans (OC43, 229E, NL63, HKU1).  These viruses typically cause mild cold-like symptoms and exhibit a pronounced seasonality with peak incidence in January-February and very little incidence in summer. The cause of this seasonality is unknown, but its presence has led to speculation that SARS-CoV-2, the virus causing COVID-19, may wane during summer months in New York City.  Consequently, we used the seasonality of OC43, which is well observed and a betacoronavirus, like SARS-CoV2, to estimate a seasonal reduction of transmissibility for SARS-CoV2 during summertime.  We then generated projections from the 2 forms for all scenarios: 1) With seasonal changes to virus transmissibility; and 2) Without seasonality. 
