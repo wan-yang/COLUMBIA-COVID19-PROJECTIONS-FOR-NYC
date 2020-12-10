@@ -50,6 +50,11 @@ Length of stay in hospitals overall: mean = 12.1 days, sd = 5.2 days;
 Length of stay in ICU: mean = 13.3 days; sd = 5.9 days; 
 Duration on ventilator: mean = 8.6 days; sd = 3 days; 
 
+UPDATE (12/10/20): mean values based on information from NYC healthcare systems:
+Length of stay in hospitals overall: mean = 9.1 days, sd = 5.2 days; 
+Length of stay in ICU: mean = 11 days (may not be accurate); sd = 5.9 days; 
+Duration on ventilator: mean = 7 days; sd = 3 days; 
+
 ### 4. Model Scenarios
 
 Seasonality: There are 4 endemic coronaviruses infecting humans (OC43, 229E, NL63, HKU1).  These viruses typically cause mild cold-like symptoms and exhibit a pronounced seasonality with peak incidence in January-February and very little incidence in summer. The cause of this seasonality is unknown, but its presence has led to speculation that SARS-CoV-2, the virus causing COVID-19, may wane during summer months in New York City.  Consequently, we used the seasonality of OC43, which is well observed and a betacoronavirus, like SARS-CoV2, to estimate a seasonal reduction of transmissibility for SARS-CoV2 during summertime.  We then generated projections from the 2 forms for all scenarios: 1) With seasonal changes to virus transmissibility; and 2) Without seasonality. 
