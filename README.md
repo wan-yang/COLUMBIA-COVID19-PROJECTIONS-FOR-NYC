@@ -39,6 +39,12 @@ Note that UHF locations are based on residential address and may not match with 
 
 Confirmed cases of COVID-19 in New York City (from Week 10, i.e. March 1-7 of 2020 to the most recent week, date labeled in the Results folder), provided by NYC DOHMH. 
 
+#### 12/15/2020 Update on data
+For this weeks' projections, we included probable COVID cases and combined them with confirmed cases for model training (ie. calibration). 
+The projections may be less accurate as we continue to learn how these new data may impact the model system. 
+Therefore, we caution the large uncertainties in our model projections generated this week and likely the next few weeks.   
+
+
 ### 3. Model Training and Assumptions
 
 Bayesian inference approach in which the DOHMH data are used to partially constrain the model parameters and state variables prior to making a projection. The form is similar to that used for influenza forecasting; however, here the data are very limited (3 weeks) so the model is less well constrained.  Initial prior ranges are set as: transmission rate (β): [0.5, 1]; latency period (Tei): [2, 5] days; infectious period (Tir): [2, 5] days; mean reporting delay (i.e., from viral shedding to being diagnosed; Td.mean): [3, 9] days; standard deviation of reporting delay (Td.sd): [1, 3] days; and reporting rate (i.e., the proportion of infections that are diagnosed; ⍺): [5, 80]%. These parameters are estimated based on the weekly confirmed case data.  
@@ -117,6 +123,23 @@ For this week's projections, we tentatively project the changes in mobility base
 
 #### 9/11/2020
 For this week's projections, we include projected changes following re-opening of gyms, schools, and indoor dining per the city's current plans. 
+
+#### 11/27/20 UPDATE on model parameters: In light of recent treatment improvement and changing patient demographics, we update the healthcare related parameters to as follows: 
+Length of stay in hospitals overall: mean = 12.1 days, sd = 5.2 days; 
+Length of stay in ICU: mean = 13.3 days; sd = 5.9 days; 
+Duration on ventilator: mean = 8.6 days; sd = 3 days; 
+
+#### 12/10/2020 UPDATE on model parameters: mean values based on information from NYC healthcare systems:
+Length of stay in hospitals overall: mean = 9.1 days, sd = 5.2 days; 
+Length of stay in ICU: mean = 11 days (may not be accurate); sd = 5.9 days; 
+Duration on ventilator: mean = 7 days; sd = 3 days; 
+
+#### 12/15/2020 Update on data
+For this week's projections, we included probable COVID cases and combined them with confirmed cases for model training (ie. calibration). 
+The projections may be less accurate as we continue to learn how these new data may impact the model system. 
+Therefore, we caution the large uncertainties in our model projections generated this week and likely the next few weeks.   
+
+
 
 ### Model Output 
 
