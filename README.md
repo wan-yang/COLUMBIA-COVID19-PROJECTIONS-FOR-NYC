@@ -139,6 +139,8 @@ For this week's projections, we included probable COVID cases and combined them 
 The projections may be less accurate as we continue to learn how these new data may impact the model system. 
 Therefore, we caution the large uncertainties in our model projections generated this week and likely the next few weeks.   
 
+#### 12/28/2020 Updates on model projections:   
+Currently (as of 12/28/20), there is no evidence that the newly reported SARS-CoV-2 variants have arrived in NYC. However, to anticipate the potential impact of these more infectious variants, we have added a projection scenario (labeled: New Variant). Basic model assumptions: 1) the new variants would be ~70% more infectious; 2) the new variants would replace the current one in the next 4 weeks; 3) Increased infectiousness would be mainly due to increased transmission rate (based on data showing higher viral load) and a slightly longer infectious period (no data on this yet); 4) No changes in disease severity; and 5) No changes in interventions during the projection period.
 
 
 ### Model Output 
