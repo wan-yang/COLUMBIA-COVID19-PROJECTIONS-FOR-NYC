@@ -35,6 +35,10 @@ In general, our simulations comparing the length of immunity (at ~1, ~3, or ~6 y
 
 Note that UHF locations are based on residential address and may not match with hospital locations and catchment area. 
 
+#### 1.5. Network SEIRSV model by age group: 
+This system, built on Model 1.4, further accounts for vaccination. For the additional vaccination module, we model two doses of vaccine, according to currently available vaccines like the Pfizer-BioNTech vaccine. Based on Polack et al., we assume that vaccine efficacy is 85% fourteen days after the first dose and 95% seven days after the second dose. Note that here we use a vaccine efficacy estimate slightly lower than that reported for the first dose (~90% within 3-4 week of follow-up for the Pfirzer-BioNTech or Moderna vaccines) to account for the potential of lower efficacy outside the 3-4 week window should the 2nd dose be delayed. For more detail, please see https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1  
+
+
 ### 2. Data
 
 Confirmed cases of COVID-19 in New York City (from Week 10, i.e. March 1-7 of 2020 to the most recent week, date labeled in the Results folder), provided by NYC DOHMH. 
@@ -143,6 +147,13 @@ Therefore, we caution the large uncertainties in our model projections generated
 Currently (as of 12/28/20), there is no evidence that the newly reported SARS-CoV-2 variants have arrived in NYC. However, to anticipate the potential impact of these more infectious variants, we have added a projection scenario (labeled: New Variant). Basic model assumptions: 1) the new variants would be ~70% more infectious; 2) the new variants would replace the current one in the next 4 weeks; 3) Increased infectiousness would be mainly due to increased transmission rate (based on data showing higher viral load) and a slightly longer infectious period (no data on this yet); 4) No changes in disease severity; and 5) No changes in interventions during the projection period.
 
 
+#### 1/27/2021 Updates on model projections: 
+Starting this week, based on more recent data, we adjust 1) the relative infectiousness of the new variant(s), from ~70% more infectious to ~50% comparied to the 'widetype' virus; and 2) the timing of new variant replacement, from 4 weeks to 6 weeks. Note that we have not yet adjusted the infection fatality risk (IFR); i.e. the same IFR is used for the 'New Variant' scenario.
+
+#### 2/3/2021 Updates on model projections: 
+Starting this week, our model projections also account for vaccination. For model training, observed vaccination rates by age and UHF are used as model input. For model projections where future vaccination rates are not available, we use projected estimates. We assume vaccine efficay (VE) 14 days after the first vaccine dose is 85% and after 7 days of the second dose is 95%. For more detail, see https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1
+
+
 ### Model Output 
 
 We use the model to estimate new weekly numbers of total infections, reported/observed infections, hospitalizations, patients in ICU, and deaths. For the latter three health outcomes we accounted for delay from infection to corresponding event as described above. 
@@ -191,6 +202,8 @@ Wang et al., Clinical Characteristics of 138 Hospitalized Patients With 2019 Nov
 
 Tang F, Quan Y, Xin ZT, et al. Lack of peripheral memory B cell responses in recovered patients with severe acute respiratory syndrome: a six-year follow-up study. J Immunol 2011; 186(12): 7264-8.
 
+Polack FP, Thomas SJ, Kitchin N, Absalon J, Gurtman A, Lockhart S, Perez JL, Pérez Marc G, Moreira ED, Zerbini C, Bailey R, Swanson KA, Roychoudhury S, Koury K, Li P, Kalina WV, Cooper D, Frenck RW, Hammitt LL, Türeci Ö, Nell H, Schaefer A, Ünal S, Tresnan DB, Mather S, Dormitzer PR, Şahin U, Jansen KU, Gruber WC. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. New Engl J Med. 2020. doi: 10.1056/NEJMoa2034577.
+
 Yang W, Kandula S, Huynh M, et al. Estimating the infection fatality risk of COVID-19 in New York City, March 1-May 16, 2020. medRxiv 2020: 2020.06.27.20141689. https://www.medrxiv.org/content/10.1101/2020.06.27.20141689v1
 
 Yang W, Kandula S, Huynh M, Greene SK, Van Wye G, Li W, Chan HT, McGibbon E, Yeung A, Olson D, Fine A, Shaman J. Estimating the infection-fatality risk of SARS-CoV-2 in New York City during the spring 2020 pandemic wave: a model-based analysis. The Lancet Infectious Diseases. doi: 10.1016/S1473-3099(20)30769-6.
@@ -198,3 +211,7 @@ Yang W, Kandula S, Huynh M, Greene SK, Van Wye G, Li W, Chan HT, McGibbon E, Yeu
 Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-opening Policies. 5/26/2020. Available at https://github.com/wan-yang/re-opening_analysis/blob/master/report1_reopenTiming.pdf
  
 Yang W, Shaff J, Shaman J. COVID-19 transmission dynamics and effectiveness of public health interventions in New York City during the 2020 spring pandemic wave. medRxiv. 2020:2020.09.08.20190710. https://www.medrxiv.org/content/10.1101/2020.09.08.20190710v1
+
+Yang W, Kandula S, Shaman J. Simulating the impact of different vaccination policies on the COVID-19 pandemic in New York City. medRxiv. 2021:2021.01.21.21250228. doi: 10.1101/2021.01.21.21250228. https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1
+
+
