@@ -90,6 +90,37 @@ Rebound Scenarios: In light of the recent uptick in mobility and potential rebou
 
 Note there is no particular specification of how reductions in contact rates or spread are achieved.  In a model of this form different reduction options (e.g. isolation vs. quarantine) are not represented explicitly; rather, they are effected by adjusting the estimated (posterior) contact rate and infectious period within the model, relative to estimates for the most recent week (the As Is scenario).
 
+### 5. Model Output 
+
+We use the model to estimate new weekly numbers of total infections, reported/observed infections, hospitalizations, patients in ICU, and deaths. For the latter three health outcomes we accounted for delay from infection to corresponding event as described above. 
+
+-	New total infections are directly estimated by the model without a delay and are an unobserved quantity that includes subclinical/undiagnosed infections.  
+
+-	New reported/observed infections include a reporting delay; the reporting rate estimated at the last day of model training was used for the entire forecast period; thus, these numbers may largely differ from observations depending on changes in testing.
+
+-	New total hospitalizations: we assume 15-30% of reported infections are hospitalized and time from symptom onset to hospitalization of 5 days (mean; SD = 3 days; estimates from China: China CDC, 2020, adjusted for NYC). 
+
+-	New ICU admissions: we assume 4-8% of reported infections are critical and enter ICU and time from symptom onset to ICU admission of 11 days (mean; SD=5 days; estimates from China: China CDC, 2020). 
+
+-	New non-ICU hospitalizations: computed as the difference between new total hospitalizations and ICU admissions. 
+
+-	New patients needing ventilators: we assume 60-100% of patients admitted to the ICU need ventilators (per data from NYC DOHMH).
+
+-	New deaths: we assume an infection mortality risk of 0.05-1.5% based on data in NYC and elsewhere in the world and time from symptom onset to death of 10 days (mean; SD = 4 days; per data from NYC)
+
+To support logistics and planning, we also use the model to estimate the numbers of hospital beds and ICU beds needed each week under each scenario:
+
+-	Demand for hospital beds: projections are based on new hospitalizations each day and length of stay in hospital (Mean=24 days; SD=5.2 days, per data from the US and elsewhere). 
+
+-	Demand for ICU beds: projections are based on new ICU admissions each day and length of stay in the ICU (Mean=21 days; SD=5.9 days, per data from the US and elsewhere). 
+
+-	Demand for ventilators: projections are based on new ICU admissions each day and length of use (Mean=12 days; SD=3 days, per estimates from the CDC). 
+
+
+We also report the estimated attack rate as the number of New Yorkers (total population size: 8,398,744 as of 2018) infected in the next 8 weeks.
+
+### 6. Results – See tables and figures.
+
 ### NOTES ON MODEL UPDATES
 #### Updates on model projections (6/6/2020):   
 The City entered phase 1 reopening on Monday 6/8/2020. For projections generated during the Week stating 6/7 and Week starting 6/14, we updated model settings to anticipate potential changes. As no plan has been set for Phase 2 yet, for all projection scenarios, we assumed that the next 8 weeks will remain at Phase 1. 
@@ -153,37 +184,6 @@ Starting this week, based on more recent data, we adjust 1) the relative infecti
 #### 2/3/2021 Updates on model projections: 
 Starting this week, our model projections also account for vaccination. For model training, observed vaccination rates by age and UHF are used as model input. For model projections where future vaccination rates are not available, we use projected estimates. We assume vaccine efficay (VE) 14 days after the first vaccine dose is 85% and after 7 days of the second dose is 95%. For more detail, see https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1
 
-
-### Model Output 
-
-We use the model to estimate new weekly numbers of total infections, reported/observed infections, hospitalizations, patients in ICU, and deaths. For the latter three health outcomes we accounted for delay from infection to corresponding event as described above. 
-
--	New total infections are directly estimated by the model without a delay and are an unobserved quantity that includes subclinical/undiagnosed infections.  
-
--	New reported/observed infections include a reporting delay; the reporting rate estimated at the last day of model training was used for the entire forecast period; thus, these numbers may largely differ from observations depending on changes in testing.
-
--	New total hospitalizations: we assume 15-30% of reported infections are hospitalized and time from symptom onset to hospitalization of 5 days (mean; SD = 3 days; estimates from China: China CDC, 2020, adjusted for NYC). 
-
--	New ICU admissions: we assume 4-8% of reported infections are critical and enter ICU and time from symptom onset to ICU admission of 11 days (mean; SD=5 days; estimates from China: China CDC, 2020). 
-
--	New non-ICU hospitalizations: computed as the difference between new total hospitalizations and ICU admissions. 
-
--	New patients needing ventilators: we assume 60-100% of patients admitted to the ICU need ventilators (per data from NYC DOHMH).
-
--	New deaths: we assume an infection mortality risk of 0.05-1.5% based on data in NYC and elsewhere in the world and time from symptom onset to death of 10 days (mean; SD = 4 days; per data from NYC)
-
-To support logistics and planning, we also use the model to estimate the numbers of hospital beds and ICU beds needed each week under each scenario:
-
--	Demand for hospital beds: projections are based on new hospitalizations each day and length of stay in hospital (Mean=24 days; SD=5.2 days, per data from the US and elsewhere). 
-
--	Demand for ICU beds: projections are based on new ICU admissions each day and length of stay in the ICU (Mean=21 days; SD=5.9 days, per data from the US and elsewhere). 
-
--	Demand for ventilators: projections are based on new ICU admissions each day and length of use (Mean=12 days; SD=3 days, per estimates from the CDC). 
-
-
-We also report the estimated attack rate as the number of New Yorkers (total population size: 8,398,744 as of 2018) infected in the next 8 weeks.
-
-### Results – See tables and figures.
 
 ### References
 
