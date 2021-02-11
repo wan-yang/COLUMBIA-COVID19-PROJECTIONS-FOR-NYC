@@ -38,8 +38,8 @@ Note that UHF locations are based on residential address and may not match with 
 #### 1.5. Network SEIRSV model by age group: 
 This system, built on Model 1.4, further accounts for vaccination. For the additional vaccination module, we model two doses of vaccine, according to currently available vaccines like the Pfizer-BioNTech vaccine. Based on Polack et al., we assume that vaccine efficacy is 85% fourteen days after the first dose and 95% seven days after the second dose. Note that here we use a vaccine efficacy estimate slightly lower than that reported for the first dose (~90% within 3-4 week of follow-up for the Pfirzer-BioNTech or Moderna vaccines) to account for the potential of lower efficacy outside the 3-4 week window should the 2nd dose be delayed. For more detail, please see https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1  
 
-#### 1.6. Network SEIRSV model by age group, trained on covid case, emergency department visit, and mortality data
-This system uses the same model as in 1.6. However, in addition to case and mortality data, the model is further trained on age-grouped, UHF specific data on confirmed covid emergency department visit. This addtional dataset likely allows more accurate estimates for younger age groups (those <45 years), for whom infection fatality risk is relatively low.   
+#### 1.6. Network SEIRSV model by age group, trained on covid case, ED visit, and mortality data
+This system uses the same model as in 1.6. However, in addition to case and mortality data, the model is further trained on age-grouped, UHF specific data on confirmed covid emergency department (ED) visit. This addtional dataset likely allows more accurate estimates for younger age groups (those <45 years), for whom infection fatality risk is relatively low.   
 
 ### 2. Data
 
