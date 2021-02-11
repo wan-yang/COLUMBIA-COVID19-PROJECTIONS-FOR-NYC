@@ -189,6 +189,9 @@ Starting this week, our model projections also account for vaccination. For mode
 #### 2/10/2021 Updates on model projections: 
 Starting this week, we use Model 1.6 (see above) for our projections. In addition to case and mortality data, the model is further trained on confirmed covid emergency department (ED) visit data. This likely allows more accurate estimates for younger age groups (those <45 years), for whom infection fatality risk is relatively low.   
 
+Please also note that we are in the process of updating estimated seasonal trend for COVID. As such, please include both projections with and without seasonality for planning in the next few weeks
+
+
 ### References
 
 China CDC. Vital Surveillances: The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020, 2020, 2(8): 113-122 (http://weekly.chinacdc.cn:80/en/zcustom/volume/1/2020)
