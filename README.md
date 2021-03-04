@@ -161,7 +161,8 @@ For this week's projections, we tentatively project the changes in mobility base
 #### 9/11/2020
 For this week's projections, we include projected changes following re-opening of gyms, schools, and indoor dining per the city's current plans. 
 
-#### 11/27/20 UPDATE on model parameters: In light of recent treatment improvement and changing patient demographics, we update the healthcare related parameters to as follows: 
+#### 11/27/20 UPDATE on model parameters: 
+In light of recent treatment improvement and changing patient demographics, we update the healthcare related parameters to as follows: 
 Length of stay in hospitals overall: mean = 12.1 days, sd = 5.2 days; 
 Length of stay in ICU: mean = 13.3 days; sd = 5.9 days; 
 Duration on ventilator: mean = 8.6 days; sd = 3 days; 
@@ -215,11 +216,11 @@ Polack FP, Thomas SJ, Kitchin N, Absalon J, Gurtman A, Lockhart S, Perez JL, Pé
 
 Yang W, Kandula S, Huynh M, et al. Estimating the infection fatality risk of COVID-19 in New York City, March 1-May 16, 2020. medRxiv 2020: 2020.06.27.20141689. https://www.medrxiv.org/content/10.1101/2020.06.27.20141689v1
 
-Yang W, Kandula S, Huynh M, Greene SK, Van Wye G, Li W, Chan HT, McGibbon E, Yeung A, Olson D, Fine A, Shaman J. Estimating the infection-fatality risk of SARS-CoV-2 in New York City during the spring 2020 pandemic wave: a model-based analysis. The Lancet Infectious Diseases. doi: 10.1016/S1473-3099(20)30769-6.
+Yang W, Kandula S, Huynh M, Greene SK, Van Wye G, Li W, Chan HT, McGibbon E, Yeung A, Olson D, Fine A, Shaman J. Estimating the infection-fatality risk of SARS-CoV-2 in New York City during the spring 2020 pandemic wave: a model-based analysis. The Lancet Infectious Diseases. doi: 10.1016/S1473-3099(20)30769-6. https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30769-6/fulltext
 
 Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-opening Policies. 5/26/2020. Available at https://github.com/wan-yang/re-opening_analysis/blob/master/report1_reopenTiming.pdf
  
-Yang W, Shaff J, Shaman J. COVID-19 transmission dynamics and effectiveness of public health interventions in New York City during the 2020 spring pandemic wave. medRxiv. 2020:2020.09.08.20190710. https://www.medrxiv.org/content/10.1101/2020.09.08.20190710v1
+Yang W, Shaff J, Shaman J. Effectiveness of non-pharmaceutical interventions to contain COVID-19: a case study of the 2020 spring pandemic wave in New York City. Journal of The Royal Society Interface. 2021;18(175):20200822. doi: doi:10.1098/rsif.2020.0822. https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0822
 
 Yang W, Kandula S, Shaman J. Simulating the impact of different vaccination policies on the COVID-19 pandemic in New York City. medRxiv. 2021:2021.01.21.21250228. doi: 10.1101/2021.01.21.21250228. https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1
 
