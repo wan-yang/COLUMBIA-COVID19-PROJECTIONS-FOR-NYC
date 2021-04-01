@@ -190,10 +190,12 @@ Starting this week, our model projections also account for vaccination. For mode
 #### 2/10/2021 Updates on model projections: 
 Starting this week, we use Model 1.6 (see above) for our projections. In addition to case and mortality data, the model is further trained on confirmed covid emergency department (ED) visit data. This likely allows more accurate estimates for younger age groups (those <45 years), for whom infection fatality risk is relatively low.   
 
-Please also note that we are in the process of updating estimated seasonal trend for COVID. As such, please include both projections with and without seasonality for planning in the next few weeks. 
+Please also note that we are in the process of updating estimated seasonal trend for COVID. As such, please include both projections with and without seasonality for planning in the next few weeks. (update on 3/24/21 - problem resolved)
 
 #### 2/24/2021 Caution on potential underestimation of hosptial bed and ventilator demands
 Please note that our model has under-estimated in-patient counts and intubated patient counts in recent weeks (since the week starting 1/24), when compared to data from HERDS. We are investigating reasons for this under-estimation. Before we update the relevent parameters (e.g. duration of hospital stay), please take this into account when using our model projections related to hosptial bed demands and ventilator demands. 
+
+update on 3/24/21 - problem resolved
 
 ### References
 
