@@ -2,7 +2,7 @@
 
 Authors: 
 
-Wan Yang(1), Sasikiran Kandula(2), Jeffrey Shaman(2)
+Wan Yang(1), Sasikiran Kandula(2), Jeffrey Shaman(2), Haokun Yuan(1)
 
 (1)Department of Epidemiology, (2)Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University
 
