@@ -2,7 +2,7 @@
 
 Authors: 
 
-Wan Yang(1), Sasikiran Kandula(2), Jeffrey Shaman(2)
+Wan Yang(1), Sasikiran Kandula(2), Jeffrey Shaman(2), Haokun Yuan(1)
 
 (1)Department of Epidemiology, (2)Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University
 
@@ -196,6 +196,9 @@ Please also note that we are in the process of updating estimated seasonal trend
 Please note that our model has under-estimated in-patient counts and intubated patient counts in recent weeks (since the week starting 1/24), when compared to data from HERDS. We are investigating reasons for this under-estimation. Before we update the relevent parameters (e.g. duration of hospital stay), please take this into account when using our model projections related to hosptial bed demands and ventilator demands. 
 
 update on 3/24/21 - problem resolved
+
+#### 7/27/2021 Update on Projection Scenarios due to increased circulation of the Delta variant
+From this week onwards, we update the No Control (i.e. Worst Case) scenario to reflect estimated parameters for the Delta variant.  In addition, we stop generating projections for the "New Variant" scenario, because as of the Week of 7/10/2021, the dominant variant in NYC has become the Delta variant.  
 
 ### References
 
