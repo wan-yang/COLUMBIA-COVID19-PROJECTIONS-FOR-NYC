@@ -41,6 +41,13 @@ This system, built on Model 1.4, further accounts for vaccination. For the addit
 #### 1.6. Network SEIRSV model by age group, trained on covid case, ED visit, and mortality data
 This system uses the same model as Model 1.5. However, in addition to case and mortality data, the model is further trained on age-grouped, UHF specific data on confirmed covid emergency department (ED) visit. This addtional dataset likely allows more accurate estimates for younger age groups (those <45 years), for whom infection fatality risk is relatively low.   
 
+#### 1.7 Projection for the Omicron pandemic wave in NYC
+Due to the dramatic changes following the surge of the Omicron variant in the city, we have re-initiated our projection system. That is, we are treating the Omicron wave separately and only use data from the week of 11/21/21 onward to generate model projections. Thus, projections posted from 1/10/22 onward represent measures (cases, hospitalizations, deaths, etc.) due to the Omicron variant alone and do not include Delta. As such, corresponding estimates during 11/21/21 - 1/10/22 may be lower than the city's overall data which include Delta. 
+
+For these projections, we assume: 1) the risk of severe outcomes (hospitalization, ICU admissions, need for ventilator use, and death) due to Omicron would be 40% of that for Delta infection; 2) Duration of hospitalization/ICU/ventilation is half of that for Delta infection. and 3) Uptake of boosters is not explicitly accounted for, as we do not have detailed data; rather, such an impact is adjusted by the filter.   
+
+In addition, please note that due to limited data for model training (i.e. only from 11/21/21 onward), there are large uncertainties with these projections. So please use with caution. 
+
 ### 2. Data
 
 Confirmed cases of COVID-19 in New York City (from Week 10, i.e. March 1-7 of 2020 to the most recent week, date labeled in the Results folder), provided by NYC DOHMH. 
