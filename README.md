@@ -50,6 +50,9 @@ For these projections, we assume: 1) the risk of severe outcomes (hospitalizatio
 
 In addition, please note that due to limited data for model training (i.e. only from 11/21/21 onward), there are large uncertainties with these projections. So please use with caution. 
 
+Updates: 
+[1/27/22] projections posted from 1/27/22 also account for boosters. 
+
 ### 2. Data
 
 Confirmed cases of COVID-19 in New York City (from Week 10, i.e. March 1-7 of 2020 to the most recent week, date labeled in the Results folder), provided by NYC DOHMH. 
