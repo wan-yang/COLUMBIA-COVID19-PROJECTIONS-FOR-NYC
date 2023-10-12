@@ -210,7 +210,10 @@ Please note that our model has under-estimated in-patient counts and intubated p
 update on 3/24/21 - problem resolved
 
 #### 7/27/2021 Update on Projection Scenarios due to increased circulation of the Delta variant
-From this week onwards, we update the No Control (i.e. Worst Case) scenario to reflect estimated parameters for the Delta variant.  In addition, we stop generating projections for the "New Variant" scenario, because as of the Week of 7/10/2021, the dominant variant in NYC has become the Delta variant.  
+From this week onward, we update the No Control (i.e. Worst Case) scenario to reflect estimated parameters for the Delta variant.  In addition, we stop generating projections for the "New Variant" scenario, because as of the Week of 7/10/2021, the dominant variant in NYC has become the Delta variant.  
+
+#### 10/12/2023 Note on vaccination data
+Due to the discontinuation of reporting on vaccination; our models no longer include real-time vaccination data for dates after September 28, 2023.  
 
 ### References
 
@@ -240,5 +243,15 @@ Yang W, Kandula S, Shaman J. Simulating Epidemic Outcomes under Different Re-ope
 Yang W, Shaff J, Shaman J. Effectiveness of non-pharmaceutical interventions to contain COVID-19: a case study of the 2020 spring pandemic wave in New York City. Journal of The Royal Society Interface. 2021;18(175):20200822. doi: doi:10.1098/rsif.2020.0822. https://royalsocietypublishing.org/doi/10.1098/rsif.2020.0822
 
 Yang W, Kandula S, Shaman J. Simulating the impact of different vaccination policies on the COVID-19 pandemic in New York City. medRxiv. 2021:2021.01.21.21250228. doi: 10.1101/2021.01.21.21250228. https://www.medrxiv.org/content/10.1101/2021.01.21.21250228v1
+
+Yang W, Greene SK, Peterson ER, Li W, Mathes R, Graf L, Lall R, Hughes S, Wang J, Fine A. Epidemiological characteristics of the B.1.526 SARS-CoV-2 variant. Science Advances. 2022;8(4):eabm0300. doi: doi:10.1126/sciadv.abm0300.
+
+Yang W, Shaman J. Development of a model-inference system for estimating epidemiological characteristics of SARS-CoV-2 variants of concern. Nature Communications. 2021;12:5573. doi: https://doi.org/10.1038/s41467-021-25913-9.
+
+Yang W, Shaman J. COVID-19 pandemic dynamics in India, the SARS-CoV-2 Delta variant and implications for vaccination. J R Soc Interface. 2022;19(191):20210900. Epub 2022/06/08. doi: 10.1098/rsif.2021.0900. PubMed PMID: 35670221.
+
+Yang W, Shaman JL. COVID-19 pandemic dynamics in South Africa and epidemiological characteristics of three variants of concern (Beta, Delta, and Omicron). Elife. 2022;11. Epub 2022/08/10. doi: 10.7554/eLife.78933. PubMed PMID: 35943138; PMCID: PMC9363123.
+
+Yang W, Shaman J. Development of Accurate Long-lead COVID-19 Forecast. PLoS Comput Biol. 2023;19(7):e1011278. Epub 2023/07/17. doi: 10.1371/journal.pcbi.1011278. PubMed PMID: 37459374; PMCID: PMC10374152 
 
 
